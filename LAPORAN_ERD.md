@@ -148,5 +148,5 @@ JOIN mata_pelajaran mp ON m.kode_matpel = mp.kode_matpel;
 
 ## 6. Berkas Proyek di Direktori
 
-- [`schema.sql`](file:///c:/Users/rplha/OneDrive/Desktop/SY2024/erd/schema.sql) : Skrip SQL untuk phpMyAdmin / MySQL.
-- [`LAPORAN_ERD.md`](file:///c:/Users/rplha/OneDrive/Desktop/SY2024/erd/LAPORAN_ERD.md) : Dokumentasi ERD
+- [`schema.sql`](https://github.com/YosuaS2023/tugas-sekolah/blob/main/schema.sql) : Skrip SQL untuk phpMyAdmin / MySQL.
+- [`LAPORAN_ERD.md`](https://github.com/YosuaS2023/tugas-sekolah/blob/main/LAPORAN_ERD.md) : Dokumentasi ERD
