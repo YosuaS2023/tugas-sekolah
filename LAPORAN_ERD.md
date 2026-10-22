@@ -2,20 +2,7 @@
 
 **Mata Pelajaran:** Pemodelan Perangkat Lunak / Basis Data (RPL Kelas XI)  
 **Referensi:** Buku *Rekayasa Perangkat Lunak Jilid 1 untuk SMK/MAK Kelas XI*, Ali Aljauhari (2023), Hal. 22, Gambar 1.22  
-
----
-
-## 1. Analisis Kasus
-
-Pada Gambar 1.22, digambarkan model ERD (Entity Relationship Diagram) untuk relasi **One to Many (1 : N)** antara entitas **Guru** dan **Mata Pelajaran**.
-
-- **Aturan Bisnis (Business Rule):**  
-  *Satu orang guru dapat mengajar lebih dari satu (banyak) mata pelajaran, tetapi setiap mata pelajaran diampu oleh satu guru.*  
-- **Kardinalitas:** `1 : N` (Guru ke Mata Pelajaran)
-
----
-
-## 2. Dekomposisi Komponen ERD
+## 1. Dekomposisi Komponen ERD
 
 ### A. Entitas & Atribut
 1. **Entitas: Guru**
@@ -43,7 +30,7 @@ Pada Gambar 1.22, digambarkan model ERD (Entity Relationship Diagram) untuk rela
 
 ---
 
-## 3. Diagram ERD (Mermaid)
+## 2. Diagram ERD (Mermaid)
 
 ```mermaid
 erDiagram
@@ -72,7 +59,7 @@ erDiagram
 
 ---
 
-## 4. Transformasi ke Skema Relasional (Tabel Database)
+## 3. Transformasi ke Skema Relasional (Tabel Database)
 
 ### 1. Tabel `guru`
 | Field | Tipe Data | Keterangan |
@@ -101,7 +88,7 @@ erDiagram
 
 ## 5. Sintaks SQL (DDL & DML)
 
-File skrip siap pakai tersimpan di [`schema.sql`](file:///c:/Users/rplha/OneDrive/Desktop/SY2024/erd/schema.sql).
+File skrip siap pakai tersimpan di [`schema.sql`](file:///c:/Users/rplha/OneDrive/Desktop/SY2024/schema.sql).
 
 ```sql
 -- 1. Membuat Database
@@ -165,6 +152,5 @@ JOIN mata_pelajaran mp ON m.kode_matpel = mp.kode_matpel;
 
 ## 6. Berkas Proyek di Direktori
 
-- [`index.html`](file:///c:/Users/rplha/OneDrive/Desktop/SY2024/erd/index.html) : Halaman visual interaktif diagram ERD, kamus data, dan tabel.
-- [`schema.sql`](file:///c:/Users/rplha/OneDrive/Desktop/SY2024/erd/schema.sql) : Skrip DDL/DML SQL untuk phpMyAdmin / MySQL.
-- [`LAPORAN_ERD.md`](file:///c:/Users/rplha/OneDrive/Desktop/SY2024/erd/LAPORAN_ERD.md) : Laporan lengkap tugas ini.
+- [`schema.sql`](file:///c:/Users/rplha/OneDrive/Desktop/SY2024/erd/schema.sql) : Skrip SQL untuk phpMyAdmin / MySQL.
+- [`LAPORAN_ERD.md`](file:///c:/Users/rplha/OneDrive/Desktop/SY2024/erd/LAPORAN_ERD.md) : Dokumentasi ERD
