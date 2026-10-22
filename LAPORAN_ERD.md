@@ -1,7 +1,3 @@
-# Tugas Basis Data: Pembuatan ERD Relasi One to Many (1 : N)
-
-**Mata Pelajaran:** Pemodelan Perangkat Lunak / Basis Data (RPL Kelas XI)  
-**Referensi:** Buku *Rekayasa Perangkat Lunak Jilid 1 untuk SMK/MAK Kelas XI*, Ali Aljauhari (2023), Hal. 22, Gambar 1.22  
 ## 1. Dekomposisi Komponen ERD
 
 ### A. Entitas & Atribut
