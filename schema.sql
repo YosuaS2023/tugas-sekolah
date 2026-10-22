@@ -1,8 +1,3 @@
--- ========================================================
--- Database: db_sekolah
--- ERD Relasi One to Many (1 : N): Guru - Mengajar - Mata Pelajaran
--- Buku: Rekayasa Perangkat Lunak Jilid 1 untuk SMK/MAK Kelas XI
--- ========================================================
 
 CREATE DATABASE IF NOT EXISTS db_sekolah;
 USE db_sekolah;
